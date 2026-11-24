@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lalit Khode - Information Technology engineering student, aspiring software engineer, and developer portfolio.">
+  <meta name="theme-color" content="#080b14">
+  <title>Lalit Khode | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">LK<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</p>
+        <p class="intro">Hello, I'm</p>
+        <h1>Lalit <span>Khode</span></h1>
+        <h2>IT Engineering Student <span class="accent">|</span> Aspiring Software Engineer</h2>
+        <p class="hero-description">
+          I enjoy building practical software, solving problems with Java,
+          and exploring web development, cloud technologies, and DevOps.
+          I'm always learning and turning ideas into working projects.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/khodelalit36" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://linkedin.com/in/lalit-khode-787528316" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-window">
+          <div class="window-top"><span></span><span></span><span></span><small>developer.js</small></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Lalit Khode"</span>,
+  field: <span class="code-green">"Information Technology"</span>,
+  skills: [
+    <span class="code-green">"Java"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"HTML & CSS"</span>,
+    <span class="code-green">"Docker"</span>,
+    <span class="code-green">"Kubernetes"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>
+};
+
+<span class="code-purple">console</span>.log(<span class="code-green">"Hello, world!"</span>);</code></pre>
+        </div>
+        <div class="floating-chip chip-top">{" "} &lt;/&gt; Web Development</div>
+        <div class="floating-chip chip-bottom">☁ DevOps & Cloud</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Building skills, <span>one project at a time.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Third-Year B.Tech Information Technology student interested in
+            software engineering and modern web technologies. I like understanding
+            how things work, practising data structures and algorithms, and applying
+            what I learn through hands-on projects.
+          </p>
+          <p>
+            Currently, I'm strengthening my Java and web development fundamentals
+            while learning Docker, Kubernetes, and cloud deployment.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><strong>8.48</strong><span>CGPA through Semester 4</span></div>
+          <div class="stat-card"><strong>2024</strong><span>B.Tech admission year</span></div>
+          <div class="stat-card"><strong>IT</strong><span>Engineering discipline</span></div>
+          <div class="stat-card"><strong>∞</strong><span>Curiosity to learn</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>Technical <span>Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">☕</div><h3>Programming</h3><p>Java · Python · JavaScript</p></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Web Development</h3><p>HTML · CSS · JavaScript</p></article>
+        <article class="skill-card"><div class="skill-icon">▣</div><h3>DevOps & Cloud</h3><p>Docker · Kubernetes · Minikube</p></article>
+        <article class="skill-card"><div class="skill-icon">⌁</div><h3>Developer Tools</h3><p>Git · GitHub · VS Code</p></article>
+        <article class="skill-card"><div class="skill-icon">◎</div><h3>Core Concepts</h3><p>Data Structures & Algorithms</p></article>
+        <article class="skill-card"><div class="skill-icon">✧</div><h3>Exploring</h3><p>React · Machine Learning · AI</p></article>
+      </div>
+      <p class="small-note">Skills listed reflect technologies I have used or am currently learning.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+      <article class="project-card">
+        <div class="project-visual">
+          <div class="architecture">
+            <div class="arch-box">CLIENT / BROWSER</div>
+            <div class="arch-arrow">↓</div>
+            <div class="arch-services">
+              <div class="arch-box service">TASK SERVICE</div>
+              <div class="arch-box service">USER SERVICE</div>
+            </div>
+            <div class="arch-caption">Node.js · Express · Docker · Kubernetes</div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="project-label">FEATURED PROJECT · MICROSERVICES</p>
+          <h3>Kubernetes Microservices</h3>
+          <p>
+            A two-service application built with Node.js and Express. Each service
+            is containerized with Docker, deployed locally using Kubernetes and
+            Minikube, and hosted independently on Render.
+          </p>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>Docker</span><span>Kubernetes</span><span>Render</span></div>
+          <div class="project-links">
+            <a href="https://github.com/khodelalit36/k8s-microservices-" target="_blank" rel="noreferrer">Source code ↗</a>
+            <a href="https://task-service-rfbi.onrender.com" target="_blank" rel="noreferrer">Task API ↗</a>
+            <a href="https://user-service-kkwm.onrender.com" target="_blank" rel="noreferrer">User API ↗</a>
+          </div>
+        </div>
+      </article>
+      <p class="small-note">More projects will be added as I build and publish them.</p>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+        <h2><span>Education</span></h2>
+      </div>
+      <div class="education-card">
+        <div class="education-mark">🎓</div>
+        <div>
+          <p class="project-label">2024 – PRESENT</p>
+          <h3>Bachelor of Technology – Information Technology</h3>
+          <p>D. Y. Patil College of Engineering, Akurdi, Pune</p>
+          <p class="education-result">CGPA: 8.48 through Semester 4</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an idea? <span>Let's talk.</span></h2>
+        <p class="contact-copy">I'm interested in learning, collaborating on projects, and connecting with people in technology.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="button primary" href="https://github.com/khodelalit36" target="_blank" rel="noreferrer">Visit GitHub ↗</a>
+        <a class="button secondary" href="https://linkedin.com/in/lalit-khode-787528316" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">LK<span>.</span></a>
+      <p>Designed & built by Lalit Khode · <span id="year"></span></p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
